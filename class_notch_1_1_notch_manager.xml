@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_notch_1_1_notch_manager" kind="class" prot="public">
+    <compoundname>Notch::NotchManager</compoundname>
+    <derivedcompoundref refid="class_notch_1_1_notch_skeleton" prot="public" virt="non-virtual">Notch::NotchSkeleton</derivedcompoundref>
+    <includes refid="_notch_core_8h" local="no">NotchCore.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_notch_1_1_notch_manager_1a5ba82a3890ae2214d87c9de6dbf52f50" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Notch::NotchManager::dataAttached</definition>
+        <argsstring></argsstring>
+        <name>dataAttached</name>
+        <briefdescription>
+<para>Indicates the presence of NotchProcessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="533" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_manager_1aed40bdc4f24354f06b6187f4c823c3df" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Notch::NotchManager::notchCount</definition>
+        <argsstring></argsstring>
+        <name>notchCount</name>
+        <briefdescription>
+<para>Number of <ref refid="class_notch_1_1_notch_processor" kindref="compound">NotchProcessor</ref> objects. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="534" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_manager_1a369bd35630ca0b9f87b104d2120aa01a" prot="protected" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_notch_1_1_notch_processor" kindref="compound">NotchProcessor</ref> &gt;</type>
+        <definition>vector&lt;NotchProcessor&gt; Notch::NotchManager::notches</definition>
+        <argsstring></argsstring>
+        <name>notches</name>
+        <briefdescription>
+<para>All <ref refid="class_notch_1_1_notch_processor" kindref="compound">NotchProcessor</ref> objects. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="535" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_manager_1af8c0849cb8a8d09d62c22c4c8d5353a5" prot="protected" static="no" mutable="no">
+        <type>vector&lt; unsigned char &gt;</type>
+        <definition>vector&lt;unsigned char&gt; Notch::NotchManager::notchIDs</definition>
+        <argsstring></argsstring>
+        <name>notchIDs</name>
+        <briefdescription>
+<para>Vector of <ref refid="namespace_notch" kindref="compound">Notch</ref> IDs. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="536" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_manager_1a71ebb8a632f88eb8a92e367ea2b087a9" prot="protected" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_notch_1_1_notch_sensor_data" kindref="compound">NotchSensorData</ref> &gt;</type>
+        <definition>vector&lt;NotchSensorData&gt; Notch::NotchManager::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+<para>Vector of <ref refid="class_notch_1_1_notch_sensor_data" kindref="compound">NotchSensorData</ref> objects. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="537" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_manager_1ae9914a45034f45f119e1e1645a19dff4" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Notch::NotchManager::commonMinTime</definition>
+        <argsstring></argsstring>
+        <name>commonMinTime</name>
+        <briefdescription>
+<para>Common minimum time, where each <ref refid="namespace_notch" kindref="compound">Notch</ref> has valid data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="538" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_manager_1a44f1be93939836c2bbf0352480beb24c" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Notch::NotchManager::commonMaxTime</definition>
+        <argsstring></argsstring>
+        <name>commonMaxTime</name>
+        <briefdescription>
+<para>Common maximum time, where each <ref refid="namespace_notch" kindref="compound">Notch</ref> has valid data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="539" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_manager_1a8a94394c9ea38f3e80869f1053b6f248" prot="protected" static="no" mutable="no">
+        <type>stringstream</type>
+        <definition>stringstream Notch::NotchManager::log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="540" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a8eb5ba2412cf0b3d80f8b0108b5991a0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Notch::NotchManager::attachNotchLog</definition>
+        <argsstring>(const string filename)</argsstring>
+        <name>attachNotchLog</name>
+        <param>
+          <type>const string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="541" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1ab25024aa9654a9ce2c0d6bee7c391362" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Notch::NotchManager::parseData</definition>
+        <argsstring>(const string configfilename)</argsstring>
+        <name>parseData</name>
+        <param>
+          <type>const string</type>
+          <declname>configfilename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="542" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1adbdadd43b8b396ead93396e6bc16a7cd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Notch::NotchManager::parseData</definition>
+        <argsstring>(const float gyroPerUnit, const float accPerUnit=1.0f, const float magPerUnit=1.0f, const float freq=20.0f)</argsstring>
+        <name>parseData</name>
+        <param>
+          <type>const float</type>
+          <declname>gyroPerUnit</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>accPerUnit</declname>
+          <defval>1.0f</defval>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>magPerUnit</declname>
+          <defval>1.0f</defval>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>freq</declname>
+          <defval>20.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="543" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a9582630b5b890e03712d8c205b27b727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Notch::NotchManager::NotchManager</definition>
+        <argsstring>()</argsstring>
+        <name>NotchManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="545" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="545" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a9a614a9b47c568ab2d673aad0e1405c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Notch::NotchManager::attachNotchLogs</definition>
+        <argsstring>(const string configfilename)</argsstring>
+        <name>attachNotchLogs</name>
+        <param>
+          <type>const string</type>
+          <declname>configfilename</declname>
+        </param>
+        <briefdescription>
+<para>Attach <ref refid="class_notch_1_1_notch_sensor_data" kindref="compound">NotchSensorData</ref> from a set of <ref refid="namespace_notch" kindref="compound">Notch</ref> log files. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="553" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1ab7ccca68d224b4fd8204aa783c16cfa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Notch::NotchManager::attachNotchLogs</definition>
+        <argsstring>(const string workingdirectory, const string configfilename)</argsstring>
+        <name>attachNotchLogs</name>
+        <param>
+          <type>const string</type>
+          <declname>workingdirectory</declname>
+        </param>
+        <param>
+          <type>const string</type>
+          <declname>configfilename</declname>
+        </param>
+        <briefdescription>
+<para>Attach <ref refid="class_notch_1_1_notch_sensor_data" kindref="compound">NotchSensorData</ref> from a set of <ref refid="namespace_notch" kindref="compound">Notch</ref> log files at the given working directory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="557" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1acaceafe6fd92fa5cc97dd018da1a3625" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchManager::attachNotchProcessors</definition>
+        <argsstring>(const vector&lt; NotchProcessor &gt; &amp;notchProcessors)</argsstring>
+        <name>attachNotchProcessors</name>
+        <param>
+          <type>const vector&lt; <ref refid="class_notch_1_1_notch_processor" kindref="compound">NotchProcessor</ref> &gt; &amp;</type>
+          <declname>notchProcessors</declname>
+        </param>
+        <briefdescription>
+<para>Attach previously initialized NotchProcessors directly. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="561" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="561" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1ae6076a017bf0567c120586acea806771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchManager::initialize</definition>
+        <argsstring>(bool calibrate=false, size_t calibStart=0, size_t calibLength=0)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>bool</type>
+          <declname>calibrate</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>calibStart</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>calibLength</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Scans NotchProcessors, runs orientation filters on them, determines common time. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="569" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a34674f554249c7af248d5f0045074360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchManager::runOrientationFilter</definition>
+        <argsstring>()</argsstring>
+        <name>runOrientationFilter</name>
+        <briefdescription>
+<para>Runs the provided orientation filter on all NotchProcessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="573" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a16d000cb400a935ddb0c05f2f46c29fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchManager::interpolateTimeGaps</definition>
+        <argsstring>()</argsstring>
+        <name>interpolateTimeGaps</name>
+        <briefdescription>
+<para>Determines common time and fixes missing measurement data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="577" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1ad1062836ff5a5f925bedc79c8294ca0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchManager::applyMagnetoOffset</definition>
+        <argsstring>(const vector&lt; MagnetoOffset &gt; offsets)</argsstring>
+        <name>applyMagnetoOffset</name>
+        <param>
+          <type>const vector&lt; <ref refid="class_notch_1_1_magneto_offset" kindref="compound">MagnetoOffset</ref> &gt;</type>
+          <declname>offsets</declname>
+        </param>
+        <briefdescription>
+<para>Apply magnetometer offset for all NotchProcessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="581" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a4e8e35319482b8eaf8dc619b2666c198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchManager::calculateMagnetoOffset</definition>
+        <argsstring>(void)</argsstring>
+        <name>calculateMagnetoOffset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Calculates, then applies magnetometer offset for all NotchProcessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="585" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1aaa2c62c56afa66617df202d0aed25e58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const int</type>
+        <definition>const int Notch::NotchManager::getID</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getID</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="587" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="587" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a70a05d5ea1038f0a72fc566b2528cea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Notch::NotchManager::getNotchIndex</definition>
+        <argsstring>(const unsigned char id, size_t &amp;index)</argsstring>
+        <name>getNotchIndex</name>
+        <param>
+          <type>const unsigned char</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>size_t &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="588" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a1d7d0f0b979f490b600134aa0a001e63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const vector&lt; <ref refid="class_notch_1_1_notch_processor" kindref="compound">NotchProcessor</ref> &gt; &amp;</type>
+        <definition>const vector&lt;NotchProcessor&gt;&amp; Notch::NotchManager::getNotches</definition>
+        <argsstring>()</argsstring>
+        <name>getNotches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="589" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="589" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a07074cab152fd403c1510db98d9ebef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchManager::getAcceleration</definition>
+        <argsstring>(unsigned long t, int notchID)</argsstring>
+        <name>getAcceleration</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>notchID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="590" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a764fee5d71f09f8ff3b4e142f8326ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::NotchManager::getOrientation</definition>
+        <argsstring>(unsigned long t, int notchID)</argsstring>
+        <name>getOrientation</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>notchID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="591" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a07b7a19cbda8f6d895454b4338650b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchManager::createSummary</definition>
+        <argsstring>()</argsstring>
+        <name>createSummary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="592" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_manager_1a7cb8f9805ad4cfa8689c1a08b8b22b7d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Notch::NotchManager::getLog</definition>
+        <argsstring>() const </argsstring>
+        <name>getLog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="593" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="593" bodyend="593"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Wraps several NotchProcessors together Manages common time between notches, provides data for every notch at a given time instant. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>Notch::NotchManager</label>
+        <link refid="class_notch_1_1_notch_manager"/>
+      </node>
+      <node id="14">
+        <label>Notch::NotchSkeleton</label>
+        <link refid="class_notch_1_1_notch_skeleton"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="531" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="531" bodyend="594"/>
+    <listofallmembers>
+      <member refid="class_notch_1_1_notch_manager_1ad1062836ff5a5f925bedc79c8294ca0d" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>applyMagnetoOffset</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a8eb5ba2412cf0b3d80f8b0108b5991a0" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>attachNotchLog</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a9a614a9b47c568ab2d673aad0e1405c9" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>attachNotchLogs</name></member>
+      <member refid="class_notch_1_1_notch_manager_1ab7ccca68d224b4fd8204aa783c16cfa8" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>attachNotchLogs</name></member>
+      <member refid="class_notch_1_1_notch_manager_1acaceafe6fd92fa5cc97dd018da1a3625" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>attachNotchProcessors</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a4e8e35319482b8eaf8dc619b2666c198" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>calculateMagnetoOffset</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a44f1be93939836c2bbf0352480beb24c" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>commonMaxTime</name></member>
+      <member refid="class_notch_1_1_notch_manager_1ae9914a45034f45f119e1e1645a19dff4" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>commonMinTime</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a07b7a19cbda8f6d895454b4338650b89" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>createSummary</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a71ebb8a632f88eb8a92e367ea2b087a9" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>data</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a5ba82a3890ae2214d87c9de6dbf52f50" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>dataAttached</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a07074cab152fd403c1510db98d9ebef5" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>getAcceleration</name></member>
+      <member refid="class_notch_1_1_notch_manager_1aaa2c62c56afa66617df202d0aed25e58" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>getID</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a7cb8f9805ad4cfa8689c1a08b8b22b7d" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>getLog</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a1d7d0f0b979f490b600134aa0a001e63" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>getNotches</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a70a05d5ea1038f0a72fc566b2528cea6" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>getNotchIndex</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a764fee5d71f09f8ff3b4e142f8326ce1" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>getOrientation</name></member>
+      <member refid="class_notch_1_1_notch_manager_1ae6076a017bf0567c120586acea806771" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>initialize</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a16d000cb400a935ddb0c05f2f46c29fd" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>interpolateTimeGaps</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a8a94394c9ea38f3e80869f1053b6f248" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>log</name></member>
+      <member refid="class_notch_1_1_notch_manager_1aed40bdc4f24354f06b6187f4c823c3df" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>notchCount</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a369bd35630ca0b9f87b104d2120aa01a" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>notches</name></member>
+      <member refid="class_notch_1_1_notch_manager_1af8c0849cb8a8d09d62c22c4c8d5353a5" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>notchIDs</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a9582630b5b890e03712d8c205b27b727" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>NotchManager</name></member>
+      <member refid="class_notch_1_1_notch_manager_1ab25024aa9654a9ce2c0d6bee7c391362" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>parseData</name></member>
+      <member refid="class_notch_1_1_notch_manager_1adbdadd43b8b396ead93396e6bc16a7cd" prot="protected" virt="non-virtual"><scope>Notch::NotchManager</scope><name>parseData</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a34674f554249c7af248d5f0045074360" prot="public" virt="non-virtual"><scope>Notch::NotchManager</scope><name>runOrientationFilter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

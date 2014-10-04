@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_notch_1_1_notch_sensor_data" kind="class" prot="public">
+    <compoundname>Notch::NotchSensorData</compoundname>
+    <includes refid="_notch_core_8h" local="no">NotchCore.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_notch_1_1_notch_sensor_data_1a3183c7aca93e5c51f6374a5979bed163" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Notch::NotchSensorData::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>ID of <ref refid="namespace_notch" kindref="compound">Notch</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="353" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_sensor_data_1adfff760052c96f889bf30de3c69b21e8" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Notch::NotchSensorData::t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <briefdescription>
+<para>ulong int representing time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="354" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_sensor_data_1a42dc26ce9296cbb666e9d7a248cb4488" prot="public" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchSensorData::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+<para>measured acceleration data </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="355" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_sensor_data_1af3c379780955d1f46866a0397fef668f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchSensorData::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <briefdescription>
+<para>measured gyro data </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="356" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_sensor_data_1ade664cad14d9c62b9eadfe4a47ccad37" prot="public" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchSensorData::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+<para>measured magnetometer data </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="357" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1ae09e77acc96aa710d4911f45cac1f30e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Notch::NotchSensorData::NotchSensorData</definition>
+        <argsstring>(unsigned char notchID, unsigned long time, fvec3 acc, fvec3 gyro, fvec3 magn)</argsstring>
+        <name>NotchSensorData</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>notchID</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>acc</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>gyro</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>magn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="359" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="359" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1a4225fc4f0e7e40978451943b83b1ba5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchSensorData::scaleAccel</definition>
+        <argsstring>(float accelPerUnit)</argsstring>
+        <name>scaleAccel</name>
+        <param>
+          <type>float</type>
+          <declname>accelPerUnit</declname>
+        </param>
+        <briefdescription>
+<para>Scales acceleration with the given resolution ( meter-over-s2 / unit ) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="369" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="369" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1a6bf15372d7c3502cbfe6cdc2eadd981f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchSensorData::scaleGyro</definition>
+        <argsstring>(float gyroPerUnit)</argsstring>
+        <name>scaleGyro</name>
+        <param>
+          <type>float</type>
+          <declname>gyroPerUnit</declname>
+        </param>
+        <briefdescription>
+<para>Scales gyro values with the given resolution ( radians-over-second / unit ) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="375" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="375" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1a2639692250836c8304ef71063f4148db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchSensorData::scaleMag</definition>
+        <argsstring>(float magPerUnit)</argsstring>
+        <name>scaleMag</name>
+        <param>
+          <type>float</type>
+          <declname>magPerUnit</declname>
+        </param>
+        <briefdescription>
+<para>Scales magnetic field str. </para>        </briefdescription>
+        <detaileddescription>
+<para>with the given resolution ( gauss / unit ) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="381" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="381" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1ab5f41bc1413b3de772b3a493f81304f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long Notch::NotchSensorData::getTime</definition>
+        <argsstring>(void)</argsstring>
+        <name>getTime</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="384" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="384" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1a06ab16d5421610e808310124a30fb377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char Notch::NotchSensorData::getID</definition>
+        <argsstring>(void)</argsstring>
+        <name>getID</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="385" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="385" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1a84b7fba99cc71fda177f0f0a642016bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchSensorData::getAccel</definition>
+        <argsstring>(void)</argsstring>
+        <name>getAccel</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="386" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="386" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1a81f8fe7da300dbb44a037a71f4cbe6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchSensorData::getGyro</definition>
+        <argsstring>(void)</argsstring>
+        <name>getGyro</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="387" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="387" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_sensor_data_1ac08820a5c180d89a194a1e92b43d1dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchSensorData::getMagn</definition>
+        <argsstring>(void)</argsstring>
+        <name>getMagn</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="388" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="388" bodyend="388"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A single measured sensor value set. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="20">
+        <label>Notch::NotchSensorData</label>
+        <link refid="class_notch_1_1_notch_sensor_data"/>
+        <childnode refid="21" relation="usage">
+          <edgelabel>g</edgelabel>
+          <edgelabel>m</edgelabel>
+          <edgelabel>a</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Notch::fvec3</label>
+        <link refid="class_notch_1_1fvec3"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="351" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="351" bodyend="389"/>
+    <listofallmembers>
+      <member refid="class_notch_1_1_notch_sensor_data_1a42dc26ce9296cbb666e9d7a248cb4488" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>a</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1af3c379780955d1f46866a0397fef668f" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>g</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1a84b7fba99cc71fda177f0f0a642016bc" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>getAccel</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1a81f8fe7da300dbb44a037a71f4cbe6ea" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>getGyro</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1a06ab16d5421610e808310124a30fb377" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>getID</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1ac08820a5c180d89a194a1e92b43d1dce" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>getMagn</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1ab5f41bc1413b3de772b3a493f81304f9" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>getTime</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1a3183c7aca93e5c51f6374a5979bed163" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>id</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1ade664cad14d9c62b9eadfe4a47ccad37" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>m</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1ae09e77acc96aa710d4911f45cac1f30e" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>NotchSensorData</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1a4225fc4f0e7e40978451943b83b1ba5b" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>scaleAccel</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1a6bf15372d7c3502cbfe6cdc2eadd981f" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>scaleGyro</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1a2639692250836c8304ef71063f4148db" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>scaleMag</name></member>
+      <member refid="class_notch_1_1_notch_sensor_data_1adfff760052c96f889bf30de3c69b21e8" prot="public" virt="non-virtual"><scope>Notch::NotchSensorData</scope><name>t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

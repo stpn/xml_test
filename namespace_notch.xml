@@ -1,0 +1,846 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_notch" kind="namespace">
+    <compoundname>Notch</compoundname>
+    <innerclass refid="class_notch_1_1fmat33" prot="public">Notch::fmat33</innerclass>
+    <innerclass refid="class_notch_1_1fvec3" prot="public">Notch::fvec3</innerclass>
+    <innerclass refid="class_notch_1_1fvec4" prot="public">Notch::fvec4</innerclass>
+    <innerclass refid="class_notch_1_1_magneto_offset" prot="public">Notch::MagnetoOffset</innerclass>
+    <innerclass refid="class_notch_1_1_notch_bone" prot="public">Notch::NotchBone</innerclass>
+    <innerclass refid="class_notch_1_1_notch_manager" prot="public">Notch::NotchManager</innerclass>
+    <innerclass refid="class_notch_1_1_notch_processor" prot="public">Notch::NotchProcessor</innerclass>
+    <innerclass refid="class_notch_1_1_notch_sensor_data" prot="public">Notch::NotchSensorData</innerclass>
+    <innerclass refid="class_notch_1_1_notch_skeleton" prot="public">Notch::NotchSkeleton</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_notch_1a27068c6f58d63e1c38d798d38dee85af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::operator+</definition>
+        <argsstring>(fvec3 const &amp;l, fvec3 const &amp;r)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Add two vectors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="166" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1ae04694678ea260a24cc709fbb5ac3a9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::operator-</definition>
+        <argsstring>(fvec3 const &amp;l, fvec3 const &amp;r)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Subtract two vectors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="170" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a759f613dc93ec48dfba95c99c823fff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::operator*</definition>
+        <argsstring>(float const &amp;l, fvec3 const &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Multiply scalar with vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="174" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a5d3bd89aa85bd9f0b86a5520f7dd497e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::operator*</definition>
+        <argsstring>(fvec3 const &amp;r, float const &amp;l)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float const &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>Multiply vector with scalar. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="178" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a4d81b58667502c39222b9a3d75290084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::operator*</definition>
+        <argsstring>(fmat33 const &amp;M, fvec3 const &amp;v)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref> const &amp;</type>
+          <declname>M</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Multiply scalar with vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="182" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a3b73be939989e358ccb41bf75b67479f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::operator*</definition>
+        <argsstring>(fvec4 const &amp;a, fvec4 const &amp;b)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Multiply quaternion with quaternion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="186" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1afdfc258838f372dd46a662d2c4453a5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::operator+</definition>
+        <argsstring>(fvec4 const &amp;a, fvec4 const &amp;b)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Add two quaternions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1aa980a7aa1c12a0ad48827a9f88150e3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::operator*</definition>
+        <argsstring>(float const &amp;l, fvec4 const &amp;r)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Multiply scalar with quaternion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="194" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a2fc84831fdb6d6b8e740c1a4a75a6c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::operator*</definition>
+        <argsstring>(fvec4 const &amp;r, float const &amp;l)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float const &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>Multiply quaternion with scalar. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="198" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a7a02fdd4741d4cca75120bee23a93082" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::operator*</definition>
+        <argsstring>(fvec4 const &amp;q, fvec3 const &amp;v)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> const &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Rotate a vector with a quaternion The rotated vector <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> is given by {0, vNew} = q.getConjugate()*{0, v}*q. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="203" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a5b513bef84e116da7ec6f2a1f2075dc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref></type>
+        <definition>fmat33 Notch::operator*</definition>
+        <argsstring>(fmat33 const &amp;, fmat33 const &amp;)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref> const &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+<para>Multiply two matrices. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a2012eda60e9796528365caeb2924bb9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref></type>
+        <definition>fmat33 Notch::transpose</definition>
+        <argsstring>(const fmat33 &amp;m)</argsstring>
+        <name>transpose</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Transpose a matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="214" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a2bb4f251579e08417ea34b2d9553b85d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::solve</definition>
+        <argsstring>(const fmat33 &amp;A, const fvec3 &amp;b)</argsstring>
+        <name>solve</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref> &amp;</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Solve A*x=b (returns x) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a4e29e2f02ef92f9d1e3e1145f8121cf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Notch::gaussf</definition>
+        <argsstring>(float sigma, float x)</argsstring>
+        <name>gaussf</name>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Gaussian function whith zero mean. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a512952b1be3031c5003618280822b392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &gt;</type>
+        <definition>vector&lt;fvec3&gt; Notch::numDerVector</definition>
+        <argsstring>(vector&lt; fvec3 &gt; v, float freq)</argsstring>
+        <name>numDerVector</name>
+        <param>
+          <type>vector&lt; <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &gt;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+<para>Numeric derivative of vector&lt;fvec3&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="226" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a3639acca51cee32c71ee4bbc15e67bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; float &gt;</type>
+        <definition>vector&lt;float&gt; Notch::anglesBetweenVectors</definition>
+        <argsstring>(vector&lt; fvec3 &gt; a, vector&lt; fvec3 &gt; b)</argsstring>
+        <name>anglesBetweenVectors</name>
+        <param>
+          <type>vector&lt; <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &gt;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Calculate angles between two vector sets. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="230" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1aec04fe9ede37aaae2d4927a3eec3ef3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Notch::dot</definition>
+        <argsstring>(fvec3 a, fvec3 b)</argsstring>
+        <name>dot</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Ddot product of two vectors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="234" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a3dd77b9bbe692a286125aac1a592de26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::cross</definition>
+        <argsstring>(fvec3 a, fvec3 b)</argsstring>
+        <name>cross</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Cross product of two vectors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="238" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1af4b9b79bb996a9296a2eb018c7e92c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::rotationQuaternion</definition>
+        <argsstring>(float angle, float ux, float uy, float uz)</argsstring>
+        <name>rotationQuaternion</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ux</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>uy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>uz</declname>
+        </param>
+        <briefdescription>
+<para>Compute rotation quaternion representing rotation around (ux,uy,uz) with angle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="242" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a7d254f966c7db919a911ca67499ef687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::rotationQuaternion</definition>
+        <argsstring>(float angle, const fvec3 &amp;u)</argsstring>
+        <name>rotationQuaternion</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &amp;</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+<para>Compute rotation quaternion representing rotation around vector u with angle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="246" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1ae4f66f9f547d5c433a8c4b94658f5cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::quaternionAngleAxis</definition>
+        <argsstring>(const fvec4 &amp;q, float &amp;angle, float &amp;ux, float &amp;uy, float &amp;uz)</argsstring>
+        <name>quaternionAngleAxis</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>ux</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>uy</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>uz</declname>
+        </param>
+        <briefdescription>
+<para>Compute rotation angle and axis representing the given quaternion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="250" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a47eb935b00ecf92e4776fc432c20be12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::normalizeQuaternion</definition>
+        <argsstring>(const fvec4 q)</argsstring>
+        <name>normalizeQuaternion</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+<para>Normalize quaternion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="254" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a5af6409c4dba2e4fface34d10b3639f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::inverseQuaternion</definition>
+        <argsstring>(const fvec4 q)</argsstring>
+        <name>inverseQuaternion</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+<para>Compute the inverse of quaternion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="258" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1ac379dc939769a9e2b7a058cd5ca58de3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref></type>
+        <definition>fmat33 Notch::rotationMatrixOfQuaternion</definition>
+        <argsstring>(const fvec4 q)</argsstring>
+        <name>rotationMatrixOfQuaternion</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+<para>Get the rotation matrix associated with the quaternion: </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>This rotation matrix (Mx) acts on vectors (v) as {0, Mx.v} = q.getConjugate()*{0, v}*q. </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="263" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a1fe794fdb95807c08f47d3e9d4b3a06f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::EulerDeg2Quaternion</definition>
+        <argsstring>(float zRotationDeg, float yRotationDeg, float xRotationDeg)</argsstring>
+        <name>EulerDeg2Quaternion</name>
+        <param>
+          <type>float</type>
+          <declname>zRotationDeg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yRotationDeg</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>xRotationDeg</declname>
+        </param>
+        <briefdescription>
+<para>Convert Euler angles to quaternion zRotationDeg, yRotationDeg and xRotationDeg denote the Euler angles in degrees to be transformed to quaternion format. </para>        </briefdescription>
+        <detaileddescription>
+<para>The quaternion can be determined up to an overall sign. Note that this ambiguity has no effect on how the quaternion rotates three-dimensional vectors. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="273" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a21ab8bdb56459aff5ce2d98a2d5a2449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::Quaternion2EulerDeg</definition>
+        <argsstring>(const fvec4 &amp;v, float *zRotationDegPtr, float *yRotationDegPtr, float *xRotationDegPtr)</argsstring>
+        <name>Quaternion2EulerDeg</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>zRotationDegPtr</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>yRotationDegPtr</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>xRotationDegPtr</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the Euler angles (in degrees) corresponding to the quaternion, in {zRotation, yRotation, xRotation} order. </para>        </briefdescription>
+        <detaileddescription>
+<para>Euler angles corresponding to a rotation matrix R are given as: R = MatrixExp[-I Sx Phi].MatrixExp[-I Sy Theta].MatrixExp[-I Sz Psi], where Sx, Sy and Sz are the generators of rotations around the x, y and z axes, respectively. Sx = {{0, 0, 0}, {0, 0, -I}, {0, I, 0}}; Sy = {{0, 0, I}, {0, 0, 0}, {-I, 0, 0}}; Sz = {{0, -I, 0}, {I, 0, 0}, {0, 0, 0}}; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="284" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a9cb33ecde717a94fa878663f646f73d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::Quaternion2ZXY</definition>
+        <argsstring>(const fvec4 &amp;v, float *zRotationDegPtr, float *xRotationDegPtr, float *yRotationDegPtr)</argsstring>
+        <name>Quaternion2ZXY</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>zRotationDegPtr</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>xRotationDegPtr</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>yRotationDegPtr</declname>
+        </param>
+        <briefdescription>
+<para>Convert quaternion to ZXY Euler angles. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="288" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a5bab0671f4ea74012b43a37b7dec3b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::Quaternion2YXZ</definition>
+        <argsstring>(const fvec4 v)</argsstring>
+        <name>Quaternion2YXZ</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Convert quaternion to YXZ Euler angles. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="292" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1ac1f3ced0097b179092baa82af826c7e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Notch::char2float</definition>
+        <argsstring>(unsigned char b1, unsigned char b2, unsigned char b3, unsigned char b4)</argsstring>
+        <name>char2float</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>b2</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>b3</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>b4</declname>
+        </param>
+        <briefdescription>
+<para>Convert char array to float. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="299" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a492aee61da95751d282767c806039a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Notch::char2float</definition>
+        <argsstring>(char *b, int index)</argsstring>
+        <name>char2float</name>
+        <param>
+          <type>char *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Convert char array to float. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="303" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a01e139f6f23b4b99af7a70b21b5e408d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned short</type>
+        <definition>unsigned short Notch::char1ushort</definition>
+        <argsstring>(char *b, int pos)</argsstring>
+        <name>char1ushort</name>
+        <param>
+          <type>char *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Convert char to unsigned short. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="307" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a0419f1f527ff8be30f31aa58026836c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned short</type>
+        <definition>unsigned short Notch::char2ushortLE</definition>
+        <argsstring>(char *b, int pos)</argsstring>
+        <name>char2ushortLE</name>
+        <param>
+          <type>char *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Convert char array to (Little Endian) unsigned short. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="311" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1ad83377823191b62206ec0ff1cb14c5ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>short</type>
+        <definition>short Notch::char2shortLE</definition>
+        <argsstring>(char *b, int pos)</argsstring>
+        <name>char2shortLE</name>
+        <param>
+          <type>char *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Convert char array to (Little Endian) signed short. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="315" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a4bd3ffef9c6aa12e41f2809e88bae165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long Notch::char3uintLE</definition>
+        <argsstring>(char *b, int pos)</argsstring>
+        <name>char3uintLE</name>
+        <param>
+          <type>char *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Convert 3-byte char array to (Little Endian) unsigned long. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="319" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a1c8d1c5cbcbc9275c1c8c8e6cab4c9b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream&amp; Notch::operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;, fvec3 const &amp;)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+<para>Streams the vector to the output in textual form. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="326" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a9ea3b71c29d645e3e57b0c9afa198b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream&amp; Notch::operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;, fvec4 const &amp;)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+<para>Streams the quaternion to the output in textual form. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="330" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1ac9026a9fd922095d5e110283d4d4a402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream&amp; Notch::operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;, fmat33 const &amp;)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+<para>Streams the matrix to the output in textual form. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="334" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_notch_1a91879b11e95633bbcc55b256575a3072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::fitSphere</definition>
+        <argsstring>(const vector&lt; fvec3 &gt; P, fvec3 &amp;out_center, float &amp;out_radius)</argsstring>
+        <name>fitSphere</name>
+        <param>
+          <type>const vector&lt; <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &gt;</type>
+          <declname>P</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &amp;</type>
+          <declname>out_center</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>out_radius</declname>
+        </param>
+        <briefdescription>
+<para>Fit a sphere to a collection of data using a closed form for the solution of Least Squares Estimation Minimizes Sum((x-xc)^2+(y-yc)^2+(z-zc)^2-r^2)^2 P is the input data, out_center and out_radius are the calculated center and radius Assumes that points are not in a singular configuration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="344" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_notch_1_1_magneto_offset" kind="class" prot="public">
+    <compoundname>Notch::MagnetoOffset</compoundname>
+    <includes refid="_notch_core_8h" local="no">NotchCore.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_notch_1_1_magneto_offset_1aa6e744955ef6387c6bb8c3fbf41370f5" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Notch::MagnetoOffset::nid</definition>
+        <argsstring></argsstring>
+        <name>nid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="395" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_magneto_offset_1a77d9604e7d103ae7429fc419f7d7c63b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::MagnetoOffset::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="396" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notch_1_1_magneto_offset_1a0ee9af920907b51b9c955054a93a8fec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Notch::MagnetoOffset::MagnetoOffset</definition>
+        <argsstring>(const unsigned char notchID, const fvec3 magnetoOffset)</argsstring>
+        <name>MagnetoOffset</name>
+        <param>
+          <type>const unsigned char</type>
+          <declname>notchID</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>magnetoOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="398" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="398" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_magneto_offset_1af3c9375e1625e11c0025acbb9a13d70a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::MagnetoOffset::setNotchID</definition>
+        <argsstring>(const unsigned char notchID)</argsstring>
+        <name>setNotchID</name>
+        <param>
+          <type>const unsigned char</type>
+          <declname>notchID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="401" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="401" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_magneto_offset_1aa8194eacb6f44e51af5898566f996212" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const unsigned char</type>
+        <definition>const unsigned char Notch::MagnetoOffset::getNotchID</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getNotchID</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="402" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="402" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_magneto_offset_1ab0fcbc987b5b5d0413aa4960a5d96445" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::MagnetoOffset::setOffset</definition>
+        <argsstring>(const fvec3 magnetoOffset)</argsstring>
+        <name>setOffset</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>magnetoOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="403" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="403" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_magneto_offset_1a85ff6fd27ef477fef1440a27df30dd5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>const fvec3 Notch::MagnetoOffset::getOffset</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getOffset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="404" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="404" bodyend="404"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>Notch::fvec3</label>
+        <link refid="class_notch_1_1fvec3"/>
+      </node>
+      <node id="7">
+        <label>Notch::MagnetoOffset</label>
+        <link refid="class_notch_1_1_magneto_offset"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="393" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="393" bodyend="405"/>
+    <listofallmembers>
+      <member refid="class_notch_1_1_magneto_offset_1aa8194eacb6f44e51af5898566f996212" prot="public" virt="non-virtual"><scope>Notch::MagnetoOffset</scope><name>getNotchID</name></member>
+      <member refid="class_notch_1_1_magneto_offset_1a85ff6fd27ef477fef1440a27df30dd5d" prot="public" virt="non-virtual"><scope>Notch::MagnetoOffset</scope><name>getOffset</name></member>
+      <member refid="class_notch_1_1_magneto_offset_1a77d9604e7d103ae7429fc419f7d7c63b" prot="private" virt="non-virtual"><scope>Notch::MagnetoOffset</scope><name>m</name></member>
+      <member refid="class_notch_1_1_magneto_offset_1a0ee9af920907b51b9c955054a93a8fec" prot="public" virt="non-virtual"><scope>Notch::MagnetoOffset</scope><name>MagnetoOffset</name></member>
+      <member refid="class_notch_1_1_magneto_offset_1aa6e744955ef6387c6bb8c3fbf41370f5" prot="private" virt="non-virtual"><scope>Notch::MagnetoOffset</scope><name>nid</name></member>
+      <member refid="class_notch_1_1_magneto_offset_1af3c9375e1625e11c0025acbb9a13d70a" prot="public" virt="non-virtual"><scope>Notch::MagnetoOffset</scope><name>setNotchID</name></member>
+      <member refid="class_notch_1_1_magneto_offset_1ab0fcbc987b5b5d0413aa4960a5d96445" prot="public" virt="non-virtual"><scope>Notch::MagnetoOffset</scope><name>setOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

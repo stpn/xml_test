@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_notch_1_1fvec3" kind="class" prot="public">
+    <compoundname>Notch::fvec3</compoundname>
+    <includes refid="_notch_core_8h" local="no">NotchCore.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_notch_1_1fvec3_1a5bbd77f6bae83794e786a29d957f7543" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Notch::fvec3::data[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="28" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notch_1_1fvec3_1a97ed8f1dcf82142406e6719361d65654" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Notch::fvec3::fvec3</definition>
+        <argsstring>()</argsstring>
+        <name>fvec3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="30" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fvec3_1a5dc8ae57a8859a54610dc34a35f3ca12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Notch::fvec3::fvec3</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>fvec3</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="35" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fvec3_1a82880e05db748aa7fe94aa384bd8bb9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::fvec3::fill</definition>
+        <argsstring>(const float val)</argsstring>
+        <name>fill</name>
+        <param>
+          <type>const float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="40" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fvec3_1abd099100473910a86e3f484357909bd0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float const &amp;</type>
+        <definition>float const&amp; Notch::fvec3::operator()</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="45" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fvec3_1a0a633aaa7aeb8486ed3c2d01a02ea25e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float&amp; Notch::fvec3::operator()</definition>
+        <argsstring>(size_t i)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="48" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fvec3_1acc6ff4fc055b05551c5f3cef317067cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Notch::fvec3::norm</definition>
+        <argsstring>() const </argsstring>
+        <name>norm</name>
+        <briefdescription>
+<para>Returns the norm of the vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="54" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fvec3_1aff82324b2a95d7f54e336f6bd1413094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &amp;</type>
+        <definition>fvec3&amp; Notch::fvec3::operator+=</definition>
+        <argsstring>(const fvec3 &amp;v)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Add another vector to itself. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="61" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fvec3_1a5fd8549ff38cc241fc808649efa8ad49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &amp;</type>
+        <definition>fvec3&amp; Notch::fvec3::operator*=</definition>
+        <argsstring>(const float &amp;f)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>Multiply itself with scalar. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="70" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fvec3_1ab933d8e518b3de127df98a5bfee979ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref> &amp;</type>
+        <definition>fvec3&amp; Notch::fvec3::operator/=</definition>
+        <argsstring>(const float &amp;f)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const float &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>Divide itself by scalar. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="79" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="79" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>3D float vector </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="26" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="26" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_notch_1_1fvec3_1a5bbd77f6bae83794e786a29d957f7543" prot="private" virt="non-virtual"><scope>Notch::fvec3</scope><name>data</name></member>
+      <member refid="class_notch_1_1fvec3_1a82880e05db748aa7fe94aa384bd8bb9a" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>fill</name></member>
+      <member refid="class_notch_1_1fvec3_1a97ed8f1dcf82142406e6719361d65654" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>fvec3</name></member>
+      <member refid="class_notch_1_1fvec3_1a5dc8ae57a8859a54610dc34a35f3ca12" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>fvec3</name></member>
+      <member refid="class_notch_1_1fvec3_1acc6ff4fc055b05551c5f3cef317067cd" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>norm</name></member>
+      <member refid="class_notch_1_1fvec3_1abd099100473910a86e3f484357909bd0" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>operator()</name></member>
+      <member refid="class_notch_1_1fvec3_1a0a633aaa7aeb8486ed3c2d01a02ea25e" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>operator()</name></member>
+      <member refid="class_notch_1_1fvec3_1a5fd8549ff38cc241fc808649efa8ad49" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>operator*=</name></member>
+      <member refid="class_notch_1_1fvec3_1aff82324b2a95d7f54e336f6bd1413094" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>operator+=</name></member>
+      <member refid="class_notch_1_1fvec3_1ab933d8e518b3de127df98a5bfee979ff" prot="public" virt="non-virtual"><scope>Notch::fvec3</scope><name>operator/=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

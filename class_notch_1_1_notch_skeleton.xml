@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_notch_1_1_notch_skeleton" kind="class" prot="public">
+    <compoundname>Notch::NotchSkeleton</compoundname>
+    <basecompoundref refid="class_notch_1_1_notch_manager" prot="public" virt="non-virtual">Notch::NotchManager</basecompoundref>
+    <includes refid="_notch_core_8h" local="no">NotchCore.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1ac556f50380aa84dff801b3c809ea29bf" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="class_notch_1_1_notch_bone" kindref="compound">NotchBone</ref> &gt;</type>
+        <definition>vector&lt;NotchBone&gt; Notch::NotchSkeleton::SkBones</definition>
+        <argsstring></argsstring>
+        <name>SkBones</name>
+        <briefdescription>
+<para>First (index 0) element is always the root. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="643" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1a519433af248b05d1832c48eed9103167" prot="private" static="no" mutable="no">
+        <type>vector&lt; int &gt;</type>
+        <definition>vector&lt;int&gt; Notch::NotchSkeleton::traversalOrder</definition>
+        <argsstring></argsstring>
+        <name>traversalOrder</name>
+        <briefdescription>
+<para>traversalOrder is an auxiliary array of bone IDs, in the order of the traversal starting from the root, and (-1)&apos;s, indicating when we have to step one level up in the graph of bones. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="649" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="649" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1af6939e7d32d2c3aeec22f19872627e52" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchSkeleton::rootPosition</definition>
+        <argsstring></argsstring>
+        <name>rootPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="650" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="650" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1abc287c8de222aa42dec5c7685cc2474b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchSkeleton::rootOffset</definition>
+        <argsstring></argsstring>
+        <name>rootOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="651" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="651" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1afbe0167d6105195eb23bad8706677566" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::NotchSkeleton::rootRotation</definition>
+        <argsstring></argsstring>
+        <name>rootRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="652" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1a22e54d865d04ab1758017fc99b9c152c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::NotchSkeleton::invEtoS</definition>
+        <argsstring></argsstring>
+        <name>invEtoS</name>
+        <briefdescription>
+<para>Inverse of Earth to Sensor transformation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="653" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="653" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1a6b5d18a3dec1a0cf362d4dcbbeefaa5a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::NotchSkeleton::EtoS</definition>
+        <argsstring></argsstring>
+        <name>EtoS</name>
+        <briefdescription>
+<para>Earth to Sensor transformation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="654" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="654" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1a51f0f195dd15bac78d0d8b33796f9a99" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::NotchSkeleton::selectedOri</definition>
+        <argsstring></argsstring>
+        <name>selectedOri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="655" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_skeleton_1a9feef68556c614d52dd3d9d6b2e5f7b7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Notch::NotchSkeleton::selected</definition>
+        <argsstring></argsstring>
+        <name>selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="656" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="656" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notch_1_1_notch_skeleton_1a622486f7dc37746fd411286c54b95024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Notch::NotchSkeleton::NotchSkeleton</definition>
+        <argsstring>(string configpath, string skeletonmodelfile)</argsstring>
+        <name>NotchSkeleton</name>
+        <param>
+          <type>string</type>
+          <declname>configpath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>skeletonmodelfile</declname>
+        </param>
+        <briefdescription>
+<para>Initializes the skeleton using the regular config file and skeleton model file (which contains skeleton hierarchy) In order to assign notches to bones, the regular config file should contain placement instructions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="664" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_skeleton_1ae2ced861783ad668785d545db717e64d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const vector&lt; <ref refid="class_notch_1_1_notch_bone" kindref="compound">NotchBone</ref> &gt; &amp;</type>
+        <definition>const vector&lt;NotchBone&gt;&amp; Notch::NotchSkeleton::getBones</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getBones</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="665" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="665" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_skeleton_1a6a6e4abb0c6557500c09059d512ad17e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Notch::NotchSkeleton::getBVH_Header</definition>
+        <argsstring>(void)</argsstring>
+        <name>getBVH_Header</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="666" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_skeleton_1a3143593e5e4903bd1f59c3be11b9602d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Notch::NotchSkeleton::getBVH_Data</definition>
+        <argsstring>(void)</argsstring>
+        <name>getBVH_Data</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="667" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class for representing a skeleton consisting bones the connections between bone elements is represented by an adjacency matrix. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>Notch::NotchManager</label>
+        <link refid="class_notch_1_1_notch_manager"/>
+      </node>
+      <node id="22">
+        <label>Notch::NotchSkeleton</label>
+        <link refid="class_notch_1_1_notch_skeleton"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>Notch::NotchManager</label>
+        <link refid="class_notch_1_1_notch_manager"/>
+      </node>
+      <node id="26">
+        <label>Notch::fvec3</label>
+        <link refid="class_notch_1_1fvec3"/>
+      </node>
+      <node id="27">
+        <label>Notch::fvec4</label>
+        <link refid="class_notch_1_1fvec4"/>
+      </node>
+      <node id="24">
+        <label>Notch::NotchSkeleton</label>
+        <link refid="class_notch_1_1_notch_skeleton"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>rootOffset</edgelabel>
+          <edgelabel>rootPosition</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>EtoS</edgelabel>
+          <edgelabel>selectedOri</edgelabel>
+          <edgelabel>invEtoS</edgelabel>
+          <edgelabel>rootRotation</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="640" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="640" bodyend="668"/>
+    <listofallmembers>
+      <member refid="class_notch_1_1_notch_manager_1ad1062836ff5a5f925bedc79c8294ca0d" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>applyMagnetoOffset</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a8eb5ba2412cf0b3d80f8b0108b5991a0" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>attachNotchLog</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a9a614a9b47c568ab2d673aad0e1405c9" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>attachNotchLogs</name></member>
+      <member refid="class_notch_1_1_notch_manager_1ab7ccca68d224b4fd8204aa783c16cfa8" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>attachNotchLogs</name></member>
+      <member refid="class_notch_1_1_notch_manager_1acaceafe6fd92fa5cc97dd018da1a3625" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>attachNotchProcessors</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a4e8e35319482b8eaf8dc619b2666c198" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>calculateMagnetoOffset</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a44f1be93939836c2bbf0352480beb24c" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>commonMaxTime</name></member>
+      <member refid="class_notch_1_1_notch_manager_1ae9914a45034f45f119e1e1645a19dff4" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>commonMinTime</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a07b7a19cbda8f6d895454b4338650b89" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>createSummary</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a71ebb8a632f88eb8a92e367ea2b087a9" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>data</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a5ba82a3890ae2214d87c9de6dbf52f50" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>dataAttached</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1a6b5d18a3dec1a0cf362d4dcbbeefaa5a" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>EtoS</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a07074cab152fd403c1510db98d9ebef5" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getAcceleration</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1ae2ced861783ad668785d545db717e64d" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getBones</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1a3143593e5e4903bd1f59c3be11b9602d" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getBVH_Data</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1a6a6e4abb0c6557500c09059d512ad17e" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getBVH_Header</name></member>
+      <member refid="class_notch_1_1_notch_manager_1aaa2c62c56afa66617df202d0aed25e58" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getID</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a7cb8f9805ad4cfa8689c1a08b8b22b7d" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getLog</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a1d7d0f0b979f490b600134aa0a001e63" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getNotches</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a70a05d5ea1038f0a72fc566b2528cea6" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getNotchIndex</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a764fee5d71f09f8ff3b4e142f8326ce1" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>getOrientation</name></member>
+      <member refid="class_notch_1_1_notch_manager_1ae6076a017bf0567c120586acea806771" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>initialize</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a16d000cb400a935ddb0c05f2f46c29fd" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>interpolateTimeGaps</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1a22e54d865d04ab1758017fc99b9c152c" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>invEtoS</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a8a94394c9ea38f3e80869f1053b6f248" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>log</name></member>
+      <member refid="class_notch_1_1_notch_manager_1aed40bdc4f24354f06b6187f4c823c3df" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>notchCount</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a369bd35630ca0b9f87b104d2120aa01a" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>notches</name></member>
+      <member refid="class_notch_1_1_notch_manager_1af8c0849cb8a8d09d62c22c4c8d5353a5" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>notchIDs</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a9582630b5b890e03712d8c205b27b727" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>NotchManager</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1a622486f7dc37746fd411286c54b95024" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>NotchSkeleton</name></member>
+      <member refid="class_notch_1_1_notch_manager_1ab25024aa9654a9ce2c0d6bee7c391362" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>parseData</name></member>
+      <member refid="class_notch_1_1_notch_manager_1adbdadd43b8b396ead93396e6bc16a7cd" prot="protected" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>parseData</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1abc287c8de222aa42dec5c7685cc2474b" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>rootOffset</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1af6939e7d32d2c3aeec22f19872627e52" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>rootPosition</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1afbe0167d6105195eb23bad8706677566" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>rootRotation</name></member>
+      <member refid="class_notch_1_1_notch_manager_1a34674f554249c7af248d5f0045074360" prot="public" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>runOrientationFilter</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1a9feef68556c614d52dd3d9d6b2e5f7b7" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>selected</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1a51f0f195dd15bac78d0d8b33796f9a99" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>selectedOri</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1ac556f50380aa84dff801b3c809ea29bf" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>SkBones</name></member>
+      <member refid="class_notch_1_1_notch_skeleton_1a519433af248b05d1832c48eed9103167" prot="private" virt="non-virtual"><scope>Notch::NotchSkeleton</scope><name>traversalOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

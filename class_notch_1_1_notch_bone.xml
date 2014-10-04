@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_notch_1_1_notch_bone" kind="class" prot="public">
+    <compoundname>Notch::NotchBone</compoundname>
+    <includes refid="_notch_core_8h" local="no">NotchCore.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1a07c8f3f37bca526e47af5cb13c7ac788" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Notch::NotchBone::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Descriptive name of bone. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="601" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="601" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1a8794dfe2e411df9e60a67c2233395023" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchBone::OffsetVector</definition>
+        <argsstring></argsstring>
+        <name>OffsetVector</name>
+        <briefdescription>
+<para>the vector pointing from the beginning of the parent bone to the beginning of the actual bone </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="602" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1a48a1ae0382ddd89b2ed1f59960f86c4e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchBone::EndOffsetVector</definition>
+        <argsstring></argsstring>
+        <name>EndOffsetVector</name>
+        <briefdescription>
+<para>the vector pointing from the beginning to the end of the bone (nonzero only for endbones) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="603" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="603" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1aa3e476c87128e8c872cbcaae90fc22d3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::NotchBone::RotQuaternion</definition>
+        <argsstring></argsstring>
+        <name>RotQuaternion</name>
+        <briefdescription>
+<para>rotation of the bone with respect to its original position described by the &apos;Offset&apos; variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="604" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1a20c3d62dd3f27fe334a32265821bb8f3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchBone::boneVector</definition>
+        <argsstring></argsstring>
+        <name>boneVector</name>
+        <briefdescription>
+<para>boneVector = EndOffset - Offset </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="605" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1adb509622a03e23a1dfd2c5a7d23c239b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Notch::NotchBone::Mass</definition>
+        <argsstring></argsstring>
+        <name>Mass</name>
+        <briefdescription>
+<para>Mass of the bone in kilograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="606" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1a0dc707a8d3dbeda69568e390be366ce7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Notch::NotchBone::boneID</definition>
+        <argsstring></argsstring>
+        <name>boneID</name>
+        <briefdescription>
+<para>Unique ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="607" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="607" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1ac8c6aa339675698f69a94307e70ab470" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Notch::NotchBone::parentID</definition>
+        <argsstring></argsstring>
+        <name>parentID</name>
+        <briefdescription>
+<para>ID of parent, -1 if this is the root. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="608" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="608" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_notch_1_1_notch_bone_1a5e2f93e623bf65f6e0f0d9864362222c" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Notch::NotchBone::notchID</definition>
+        <argsstring></argsstring>
+        <name>notchID</name>
+        <briefdescription>
+<para>ID of the notch, 0 if no <ref refid="namespace_notch" kindref="compound">Notch</ref> is attached. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="609" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="609" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1aa0731381af9eef0fb8c84e5a3dfdf27d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Notch::NotchBone::NotchBone</definition>
+        <argsstring>(int BoneID, int ParentID, fvec3 BoneOffsetVector, fvec4 BoneRotationQuaternion, fvec3 BoneEndOffsetVector=fvec3(0.0, 0.0, 0.0), float BoneMass=1.0f, unsigned char NotchID=0)</argsstring>
+        <name>NotchBone</name>
+        <param>
+          <type>int</type>
+          <declname>BoneID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ParentID</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>BoneOffsetVector</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+          <declname>BoneRotationQuaternion</declname>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>BoneEndOffsetVector</declname>
+          <defval><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref>(0.0, 0.0, 0.0)</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>BoneMass</declname>
+          <defval>1.0f</defval>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>NotchID</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="612" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1a93203a862f5686f9a01d4eb334e1f753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchBone::setNotchID</definition>
+        <argsstring>(const unsigned char nid)</argsstring>
+        <name>setNotchID</name>
+        <param>
+          <type>const unsigned char</type>
+          <declname>nid</declname>
+        </param>
+        <briefdescription>
+<para>set NotchID of the bone </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="616" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1a69507cacfbe970a48e91bbe76d30244e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchBone::setOffset</definition>
+        <argsstring>(fvec3 xyz)</argsstring>
+        <name>setOffset</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="618" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1ac6023a599ae01252cdb754438282edac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchBone::setEndOffset</definition>
+        <argsstring>(fvec3 xyz)</argsstring>
+        <name>setEndOffset</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="619" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1ac6f6450df5d9dcca9a01e8987c5f275b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchBone::setBoneVector</definition>
+        <argsstring>(fvec3 xyz)</argsstring>
+        <name>setBoneVector</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="620" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1ab226cb2f902bef2643c1108852045266" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::NotchBone::setRotationQuaternion</definition>
+        <argsstring>(fvec4)</argsstring>
+        <name>setRotationQuaternion</name>
+        <param>
+          <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="621" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1adbed3e05c8e87528d6ff6c134c0e18ff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Notch::NotchBone::getName</definition>
+        <argsstring>(void) const </argsstring>
+        <name>getName</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="623" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="623" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1a8360e173b41958f3f667b39396cd8457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchBone::getOffset</definition>
+        <argsstring>(void)</argsstring>
+        <name>getOffset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="624" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1ab3f8f96a1c3a647882a9e35b897b0497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchBone::getEndOffset</definition>
+        <argsstring>(void)</argsstring>
+        <name>getEndOffset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="625" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1ad54d7b7e9f9aabafe0cafc4aa4a0b52e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec3" kindref="compound">fvec3</ref></type>
+        <definition>fvec3 Notch::NotchBone::getBoneVector</definition>
+        <argsstring>(void)</argsstring>
+        <name>getBoneVector</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="626" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1a2d206cd59ed01dae529d0d938ca43592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fvec4" kindref="compound">fvec4</ref></type>
+        <definition>fvec4 Notch::NotchBone::getRotationQuaternion</definition>
+        <argsstring>()</argsstring>
+        <name>getRotationQuaternion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="627" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1a3f6c6850fa941e87a0152d36bce422e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Notch::NotchBone::getBoneID</definition>
+        <argsstring>(void)</argsstring>
+        <name>getBoneID</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="628" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1a9974869265601d73cbf9b57768cec6d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Notch::NotchBone::getParentID</definition>
+        <argsstring>(void)</argsstring>
+        <name>getParentID</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="629" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1_notch_bone_1a84d1463332ad6eadba545fc2e39ec699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char Notch::NotchBone::getNotchID</definition>
+        <argsstring>(void)</argsstring>
+        <name>getNotchID</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="630" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_notch_1_1_notch_bone_1a3c69cb8d13eed2f683a4cab90d3123f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;, NotchBone)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="class_notch_1_1_notch_bone" kindref="compound">NotchBone</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="632" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class for representing a bone </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="10">
+        <label>Notch::NotchBone</label>
+        <link refid="class_notch_1_1_notch_bone"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>boneVector</edgelabel>
+          <edgelabel>EndOffsetVector</edgelabel>
+          <edgelabel>OffsetVector</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>RotQuaternion</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Notch::fvec3</label>
+        <link refid="class_notch_1_1fvec3"/>
+      </node>
+      <node id="12">
+        <label>Notch::fvec4</label>
+        <link refid="class_notch_1_1fvec4"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="599" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="599" bodyend="633"/>
+    <listofallmembers>
+      <member refid="class_notch_1_1_notch_bone_1a0dc707a8d3dbeda69568e390be366ce7" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>boneID</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a20c3d62dd3f27fe334a32265821bb8f3" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>boneVector</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a48a1ae0382ddd89b2ed1f59960f86c4e" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>EndOffsetVector</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a3f6c6850fa941e87a0152d36bce422e1" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>getBoneID</name></member>
+      <member refid="class_notch_1_1_notch_bone_1ad54d7b7e9f9aabafe0cafc4aa4a0b52e" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>getBoneVector</name></member>
+      <member refid="class_notch_1_1_notch_bone_1ab3f8f96a1c3a647882a9e35b897b0497" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>getEndOffset</name></member>
+      <member refid="class_notch_1_1_notch_bone_1adbed3e05c8e87528d6ff6c134c0e18ff" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>getName</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a84d1463332ad6eadba545fc2e39ec699" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>getNotchID</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a8360e173b41958f3f667b39396cd8457" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>getOffset</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a9974869265601d73cbf9b57768cec6d4" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>getParentID</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a2d206cd59ed01dae529d0d938ca43592" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>getRotationQuaternion</name></member>
+      <member refid="class_notch_1_1_notch_bone_1adb509622a03e23a1dfd2c5a7d23c239b" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>Mass</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a07c8f3f37bca526e47af5cb13c7ac788" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>Name</name></member>
+      <member refid="class_notch_1_1_notch_bone_1aa0731381af9eef0fb8c84e5a3dfdf27d" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>NotchBone</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a5e2f93e623bf65f6e0f0d9864362222c" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>notchID</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a8794dfe2e411df9e60a67c2233395023" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>OffsetVector</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a3c69cb8d13eed2f683a4cab90d3123f7" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_notch_1_1_notch_bone_1ac8c6aa339675698f69a94307e70ab470" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>parentID</name></member>
+      <member refid="class_notch_1_1_notch_bone_1aa3e476c87128e8c872cbcaae90fc22d3" prot="private" virt="non-virtual"><scope>Notch::NotchBone</scope><name>RotQuaternion</name></member>
+      <member refid="class_notch_1_1_notch_bone_1ac6f6450df5d9dcca9a01e8987c5f275b" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>setBoneVector</name></member>
+      <member refid="class_notch_1_1_notch_bone_1ac6023a599ae01252cdb754438282edac" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>setEndOffset</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a93203a862f5686f9a01d4eb334e1f753" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>setNotchID</name></member>
+      <member refid="class_notch_1_1_notch_bone_1a69507cacfbe970a48e91bbe76d30244e" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>setOffset</name></member>
+      <member refid="class_notch_1_1_notch_bone_1ab226cb2f902bef2643c1108852045266" prot="public" virt="non-virtual"><scope>Notch::NotchBone</scope><name>setRotationQuaternion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_notch_1_1fmat33" kind="class" prot="public">
+    <compoundname>Notch::fmat33</compoundname>
+    <includes refid="_notch_core_8h" local="no">NotchCore.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_notch_1_1fmat33_1a2c151a39f29d9cfebfe1cbcf0541680e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Notch::fmat33::data[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="123" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_notch_1_1fmat33_1ab3cc9133dad2f44b3e9d60a49c89a414" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Notch::fmat33::fmat33</definition>
+        <argsstring>()</argsstring>
+        <name>fmat33</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="125" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="125" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fmat33_1a86f86119f2b40eb33b69907a1e3a8c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Notch::fmat33::fill</definition>
+        <argsstring>(const float val)</argsstring>
+        <name>fill</name>
+        <param>
+          <type>const float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="130" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="130" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fmat33_1a515e4b0c395a27b546e0038a09560bd5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float const &amp;</type>
+        <definition>float const&amp; Notch::fmat33::operator()</definition>
+        <argsstring>(size_t k) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>size_t</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="135" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="135" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fmat33_1aab8ea24caf792365ff072b4efefa0630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float&amp; Notch::fmat33::operator()</definition>
+        <argsstring>(size_t k)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>size_t</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="138" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fmat33_1ad813ac65cf98f9f615424071a84b207c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float const &amp;</type>
+        <definition>float const&amp; Notch::fmat33::operator()</definition>
+        <argsstring>(size_t i, size_t j) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="141" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fmat33_1ab6cd3d177069bf0800f7f160e946e389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float&amp; Notch::fmat33::operator()</definition>
+        <argsstring>(size_t i, size_t j)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="144" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="144" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_notch_1_1fmat33_1a713d5fd21404fe75c4ba7659dd8868d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref> &amp;</type>
+        <definition>fmat33&amp; Notch::fmat33::operator+=</definition>
+        <argsstring>(const fmat33 &amp;m)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="class_notch_1_1fmat33" kindref="compound">fmat33</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="147" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="147" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>3 by 3 float matrix </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" line="121" column="1" bodyfile="/Users/stepanboltalin/Documents/Notch/site/docs/notchcalc/notchlibs/Core/NotchCore.h" bodystart="121" bodyend="159"/>
+    <listofallmembers>
+      <member refid="class_notch_1_1fmat33_1a2c151a39f29d9cfebfe1cbcf0541680e" prot="private" virt="non-virtual"><scope>Notch::fmat33</scope><name>data</name></member>
+      <member refid="class_notch_1_1fmat33_1a86f86119f2b40eb33b69907a1e3a8c01" prot="public" virt="non-virtual"><scope>Notch::fmat33</scope><name>fill</name></member>
+      <member refid="class_notch_1_1fmat33_1ab3cc9133dad2f44b3e9d60a49c89a414" prot="public" virt="non-virtual"><scope>Notch::fmat33</scope><name>fmat33</name></member>
+      <member refid="class_notch_1_1fmat33_1a515e4b0c395a27b546e0038a09560bd5" prot="public" virt="non-virtual"><scope>Notch::fmat33</scope><name>operator()</name></member>
+      <member refid="class_notch_1_1fmat33_1aab8ea24caf792365ff072b4efefa0630" prot="public" virt="non-virtual"><scope>Notch::fmat33</scope><name>operator()</name></member>
+      <member refid="class_notch_1_1fmat33_1ad813ac65cf98f9f615424071a84b207c" prot="public" virt="non-virtual"><scope>Notch::fmat33</scope><name>operator()</name></member>
+      <member refid="class_notch_1_1fmat33_1ab6cd3d177069bf0800f7f160e946e389" prot="public" virt="non-virtual"><scope>Notch::fmat33</scope><name>operator()</name></member>
+      <member refid="class_notch_1_1fmat33_1a713d5fd21404fe75c4ba7659dd8868d1" prot="public" virt="non-virtual"><scope>Notch::fmat33</scope><name>operator+=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
